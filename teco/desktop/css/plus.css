@@ -1,0 +1,74 @@
+/*logo*/
+.header .header-in .top-head .logo {height:40px;}
+.header .header-in .top-head .logo img {height:40px;}
+html{overflow-x:hidden;}
+.header.head-sticky{position:sticky;}
+.cd-main-content.wbanner-head{padding-top:16px;}
+.head-banner{width:100%; height:68px; display:flex; justify-content:center; align-items:center; height:auto; overflow:hidden; margin:0 auto; background:#e11c23; position:fixed; top:0; left:0; right:0; z-index:10;}
+.header.whead-banner{top:67px;}
+.cd-main-content.whead-banner{padding-top:214px;}
+.head-banner .inside-head-banner{width:100%; max-width:1366px; margin:auto; display:flex; align-items:center; justify-content:center;position:relative;}
+.head-banner .inside-head-banner .cls-head-banner{width:24px; height:24px; overflow:hidden; border-radius:12px; background:#fafafa; display:flex; justify-content:center; align-items:center; position:absolute; top:4px; right:4px; z-index:2; border:none; font-size:10px;}
+.head-banner img{width:100%; height:auto;}
+.banner300{width:100%; height:auto; padding:8px; background:#fafafa; display:flex; align-items:center; justify-content:center;}
+.banner300 .inside300{width:300px; margin:auto; display:flex; align-items:center; justify-content:center;position:relative;}
+.banner300 .cls300{width:24px; height:24px; overflow:hidden; border-radius:12px; background:#fafafa; display:flex; justify-content:center; align-items:center; position:absolute; top:4px; right:4px; z-index:2; border:none; font-size:8px; color:#252525;}
+.banner300 img{width:300px; height:auto;}
+.banner728{width:100%; height:auto; padding:8px 0; background:#fafafa; display:flex; align-items:center; justify-content:center; }
+.banner728 .inside728{width:728px; margin:auto; display:flex; align-items:center; justify-content:center;position:relative;}
+.banner728 img{width:728px; height:auto;}
+.banner728 .inside728 .cls728{width:24px; height:24px; overflow:hidden; border-radius:12px; background:#fafafa; display:flex; justify-content:center; align-items:center; position:absolute; top:4px; right:4px; z-index:2; border:none; font-size:10px; color:#252525;}
+.footer{width:100%;}
+/*slider*/
+nav.sub-menu{padding:0 80px 0 0;}
+.slider-menu .slick-prev, .slider-menu .slick-next{background:#fefefe;}
+.slider-sub-menu{width:736px; background:#fafafa; margin-bottom:16px; padding-right:110px;}
+.slider-sub-menu .slick-prev, .slider-sub-menu .slick-next{width:40px; height:50px; opacity:1; top:0; background:#fafafa; color:#212121; border-radius:0;}
+.slider-sub-menu .slick-prev{left:inherit;right:40px; padding-right:0;justify-content:center;}
+.slider-sub-menu .slick-next{right:0; padding-left:0;justify-content:center;}
+.slider-sub-menu .item-menu a.selected::before{background:none;}
+.slider-sub-menu .item-menu a.selected{color:#AD120A;}
+a.sub-link:hover{color:#AD120A}
+svg.svg-home-sub{fill:none; stroke:#252525;}
+/*blockbox*/
+.bg-bappenas{background:#3E3E8C !important;}
+.blockbox .footbox{padding:8px 12px; font-size:12px; line-height:14px; overflow:hidden;}
+/*fix ribbon*/
+.outfixed{z-index:98;font-family:'Roboto';position:fixed;width:100%; left:0; right:0; bottom:-60px;padding:0; margin:0;transition: all 0.3s ease-in-out; height:60px;}
+.outfixed.open{bottom:0; left:0; right:0;width:100%;min-height:auto;overflow:inherit;background:#dc0e14; padding:8px 0;transition: all 0.3s ease-in-out; opacity:1;}
+.outfixed .box-button{padding:0 16px;position:absolute; top:-30px; right:0; height:30px; background:#fefefe; color:#252525; border:none; left:0; display:flex; align-items:center; box-shadow:1px 1px 12px rgba(0,0,0,0.1);}
+.outfixed .box-button p{max-width:1070px; margin:0 auto; width:100%; position:relative;}
+.outfixed .box-button p button.bukatutup{position:absolute; top:-7px; right:0; height:30px; background:#fff; color:#000; border:none; display:inline-flex; width:auto; padding:0;}
+.arrowup, .arrowdw{position:relative;top:2px;}
+.textbuka, .texttutup{position:relative;}
+.arrowup:before{content:"\f106";font-size:16px; color:#333; width:30px; height:30px; z-index:2; position:relative; display:flex; align-items:center; justify-content:center; font-family:'FontAwesome';}
+.arrowdw:before{content:"\f107";font-size:16px; color:#333; width:30px; height:30px; z-index:2; position:relative; display:flex; align-items:center; justify-content:center; font-family:'FontAwesome';}
+.textbuka:before{content:"buka";font-size:12px; color:#333;height:30px; z-index:2; position:relative; display:flex; align-items:center; justify-content:center;}
+.texttutup:before{content:"tutup";font-size:12px; color:#333;height:30px; z-index:2; position:relative; display:flex; align-items:center; justify-content:center;}
+.bigbox{padding-bottom:60px; height:auto;}
+.bigbox.bukaopen{height:auto; min-height:auto; overflow:hidden; padding-bottom:75px;}
+.btn-edits{padding:0 10px !important; font-size:12px !important; height:30px !important;}
+.outfixed .fix-login{height:60px;}
+.container-ribbon{width:100%; max-width:1070px; margin:0 auto; padding:0; position:relative;}
+.container-ribbon p{font-size:13px; line-height:16px; margin:0;}
+.container-ribbon h3{ font-size:18px; line-height:20px; font-weight:600; margin:0;}
+.container-ribbon a.selengkapnya{width:auto; padding:4px 16px; background:#212121; color:#fefefe; display:flex; justify-content:center; align-items:center; position:absolute; top:0; bottom:0; right:0; height:32px; margin-top:6px; border:1px solid #fefefe;}
+@keyframes fadeInOut {
+ 0% {  opacity: 0;  }
+  5% {  opacity: 0;  }
+  10% {  opacity: 0;  }
+  15% {  opacity: 1;  }
+  25% {  opacity: 1;  }
+  30% {  opacity: 0;  }
+  50% {  opacity: 0;  }
+  80% {  opacity: 0;  }
+  100% {  opacity: 0;  }
+}
+.container-ribbon .first-line,
+.container-ribbon .second-line,
+.container-ribbon .third-line,
+.container-ribbon .fourth-line {margin:0;position: absolute;left:0;top:0;opacity: 0;color:#fff;animation-name: fadeInOut;animation-iteration-count: infinite; height:44px; display: inline-flex;justify-content: center;align-items: flex-start;    flex-direction: column;}
+.first-line {    animation-duration: 16s;}
+.second-line {    animation-delay: 4s;  animation-duration: 16s;}
+.third-line {  animation-delay: 8s;  animation-duration: 16s; }
+.fourth-line {    animation-delay: 12s;  animation-duration: 16s;}

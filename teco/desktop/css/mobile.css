@@ -1,0 +1,9 @@
+@media only screen and (max-width:1280px) {
+	.adskins{padding:0 !important; width:120px !important; height:600px !important; margin:0 !important;}
+	.fix-left,.fix-right{width:127px !important; height:600px !important; margin:8px 0 !important;}
+	.fix-left{justify-content:flex-start !important;}
+	.fix-right{justify-content:flex-end !important;}
+}
+@media only screen and (max-width:1270px) {
+.fix-left,.fix-right{display:none !important; width:0 !important; height:0 !important;}
+}
