@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+.pw-container{font-family:'Roboto';max-width:360px; margin:16px auto; box-shadow:1px 1px 9px rgba(0,0,0,0.1); padding:16px; font-size:14px; font-weight:600;}
+.pw-container .color-merah{color:#AD120A !important;}
+.pw-container h2.title{font-size:16px; line-height:22px;font-weight:500; margin:0 0 16px 0;}
+.pw-container .ovw{overflow:hidden; margin-bottom:32px;}
+.pw-container .left-col{width:50%; float:left; padding-right:4px;}
+.pw-container .right-col{width:50%; float:left; padding-left:4px;}
+.checker{width:14px; height:24px; display:flex; justify-content:center; align-items:center; float:left; margin-right:10px; border-radius:12px; background:transparent; color:#43bf28; font-weight:bold; font-size:16px;}
+.teks{padding:0; border-radius:6px; min-height:36px; margin-bottom:10px;}
+.teks p.info{padding-left:24px; font-size:16px; line-height:20px !important; font-weight:500; margin:0; padding-top:3px; color:#333;}
+.pw-container a.pay-btn{width:100%; height:36px; background:#AD120A; color:#fefefe;transition: all 0.3s ease-in-out;opacity:1; display:flex; align-items:center; justify-content: center; border:none; text-align:center; font-weight:600;font-size:14px;}
+.pw-container  a.pay-btn:hover{transition: all 0.3s ease-in-out; opacity:0.8;}
+.pw-container .pw-bottom-box{border:1px solid #9e9e9e; border-radius:2px; overflow:hidden; padding:8px; margin-top:32px;}
+.pw-container .pw-bottom-box p{font-size:13px; line-height:16px; margin:0;}
+/*fix ribbon*/
+.outfixed{z-index:9998;font-family:'Roboto';position:fixed;width:100%; left:0; right:0; bottom:-300px;height:auto;padding:0; margin:0;transition: all 0.3s ease-in-out;}
+.outfixed.open{bottom:0; left:0; right:0;width:100%;min-height:auto;overflow:hidden;background:#212121; padding:15px 0;padding-bottom:72px;transition: all 0.3s ease-in-out;}
+
+.arrowup, .arrowdw{position:relative;}
+.arrowup:before{top:-2px;content:"\2191";font-size:16px; color:#333; width:40px; height:40px; z-index:2; position:relative; display:flex; align-items:center; justify-content:center;}
+.arrowdw:before{top:-2px;content:"\2193";font-size:16px; color:#333; width:40px; height:40px; z-index:2; position:relative; display:flex; align-items:center; justify-content:center;}
+  .login-btn{text-align:center;display:inline-flex !important;}
+  .bigbox{padding-bottom:60px; height:auto;}
+  .bigbox.bukaopen{height:auto; min-height:auto; overflow:hidden; padding-bottom:75px;}
+ .btn-edits{padding:0 10px !important; font-size:12px !important; height:30px !important;}
+ .outfixed .fix-login{height:60px;}
+ .container-ribbon{width:100%; max-width:1170px; margin:0 auto; padding:0 16px;}
+  .container-ribbon p{font-size:13px; line-height:16px; color:#fff; margin:0;}
+
+.rb-login{position:fixed; z-index:9999; left:0; right:0; bottom:0;height:56px; overflow:hidden;background:#191919;color:#dedede;}
+.rb-login .rb-login-in{width:100%; max-width:1170px; margin:0 auto; padding:10px 16px; position:relative;}
+.rb-login a.rb-btn{width:auto; padding:0 16px; height:36px; background:#AD120A; color:#fefefe;transition: all 0.3s ease-in-out;opacity:1; display:inline-flex; align-items:center; justify-content: center; border:none; text-align:center; font-weight:500;font-size:14px; border-radius:2px;}
+.rb-login a.rb-btn:hover{transition: all 0.3s ease-in-out; opacity:0.8;}
+.rb-login .rb-login-in button.bukatutup{position:absolute; right:16px; bottom:10px; width:36px; height:36px; display:flex; align-items:center; justify-content:center; background:#fff; color:#000; border-radius:20px; z-index:12; cursor:pointer; border:none;}
